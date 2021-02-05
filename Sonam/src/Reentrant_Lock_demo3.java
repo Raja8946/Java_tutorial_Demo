@@ -52,7 +52,7 @@ class Mythread16 extends Thread
 {
 	static ReentrantLock l= new ReentrantLock();
 	public Mythread16(String name) {
-		// TODO Auto-generated constructor stub
+		// TODO ///Auto-generated constructor stub
 		super(name);
 	}
 	public void run() {

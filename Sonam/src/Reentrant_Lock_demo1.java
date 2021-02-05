@@ -17,5 +17,6 @@ public class Reentrant_Lock_demo1 {
 		l.unlock();
 		System.out.println(l.isLocked()); //false
 		System.out.println(l.isFair());  //false
+		System.out.println(Thread.currentThread().getName());
 	}
 }
